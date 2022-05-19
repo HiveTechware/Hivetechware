@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: darkgrey;
+    border-bottom-style: groove;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+header nav .nav-left{
+    width: 50%;
+}
+
+header nav .nav-right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+::placeholder {
+    color: silver;
+    text-align: center;
+}
+header nav .nav-right .search {
+    width: 40%;
+}
+header nav .nav-right .search input {
+    border-radius: 25px;
+    background: #262424;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+header nav .nav-right .cart-number input {
+    border-radius: 23px;
+    background: #262424;
+    width: 18%;
+    height: 29px;
+    text-align: center;
+}
+
+
+nav .nav-right img {
+    width: 5%;
+}
+nav .nav-right a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+
+ .cart .mycart {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: xxx-large;
+    padding: 7%;
+}
+
+
+.cart .grid {
+    display: grid;
+    gap: 4%;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 2% 1%;
+}
+.cart .grid .item .description .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart .grid .item .description .clothingname h2 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.cart .grid .item .description .clothingname p {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.total {
+    border-top-style: groove;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2% 0%;
+
+}
+.total .subtotal {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding-right: 1%;
+    font-size: 1vw;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+.total .items-number {
+    width: 20%;
+    display: flex;
+    padding-right: 1%;
+    font-size: 1vw;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+
+
+.total .checkout button {
+   
+    color: #e3e7ec;
+    background-color: #262424;
+    border: 1px solid;
+    font-size: 1.5vw;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    margin-right: 3%;
+    font-family: sans-serif;
+
+}
+
+.cart .grid .item .image-container {
+    width: 100%;
+}
+.cart .grid .item .image-container img {
+    width: 100%;
+}
+
+.bottom {
+    background-color: #262424;
+    padding: 2% 0;
+    color: white;
+  
+}
+.bottom .container {
+    padding: 2% 0 0 8%;
+    display: flex;
+    gap: 2rem;
+    width: 40%;
+}
+.bottom .container .shop-and-learn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bottom .container .shop-and-learn h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.bottom .container .shop-and-learn{
+    font-family: sans-serif;
+}
+
+
+.bottom .container .support h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.bottom .container .support {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+ .copyright {
+    display: flex;
+    padding-top: 4%;
+    background-color: #262424;
+    color: #e3e7ec;
+ }
+
+ .bottom .social-tags {
+    justify-content: flex-end;
+    display: flex;
+    gap: 2%;
+}
+
+ /***************************** SECOND PAGE **********************************/
+
+
+
+
+
+
+.sign-up {
+    padding: 7% 15% 6% 15%;
+    font-family: sans-serif;
+}
+
+.sign-up h1 {
+    font-family: sans-serif;
+    font-weight: 365;
+    font-size: xx-large;
+    padding-bottom: 4%;
+}
+
+.sign-up .sign .name-sign p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+.sign-up .sign .name-sign {
+    padding-bottom: 2%;
+}
+
+
+.sign-up .sign .email-sign p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+.sign-up .sign .email-sign {
+    padding-bottom: 2%;
+ }
+
+
+ .sign-up .sign .password-sign p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+.sign-up .sign .password-sign {
+    padding-bottom: 2%;
+ }
+
+
+
+ .sign-up .sign .confirm-pswd p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+.sign-up .sign .confirm-pswd {
+    padding-bottom: 2%;
+ }
+
+
+
+
+.sign-up button {
+    color: #e3e7ec;
+    background-color: #262424;
+    border: 1px solid;
+    font-size: 1.5vw;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    margin-right: 3%;
+    font-family: sans-serif;
+}
+
+.sign-up .sign .name-sign input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sign-up .sign .email-sign input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sign-up .sign .password-sign input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sign-up .sign .confirm-pswd input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sign-up .p2 {
+    padding-top: 4%;
+}
+
+
+
+
+/**********************PAGE 4******************************/
+
+
+.item-details {
+    padding: 10% 10% 0% 24%;
+    font-family: sans-serif;
+}
+
+.item-details h1 {
+    font-family: sans-serif;
+    font-weight: 350;
+    font-size: xxx-large;
+    padding-bottom: 5%;
+    letter-spacing: 0.1em;
+}
+
+.item-details p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    letter-spacing: 0.03em;
+}
+
+.item-details .table-container table {
+    FONT-SIZE: x-large;
+    font-weight: 100;
+    padding: 3%;
+    row-gap: 40px;
+    border-spacing: 45px;
+    padding-bottom: 1%;
+    color: #7f7d7d;
+ }
+
+ .item-details .table-container .table-2 table {
+    width: 65%;
+    padding: 0% 0% 0% 0%;
+    border-top: solid 0.5px;
+    border-top: inset;
+    font-weight: 500;
+    color: black;
+ }
+
+ .demographics .demo-info .info .name {
+    padding-bottom: 2%;
+ }
+
+ .demographics .demo-info .info .name p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+.demographics .demo-info .info .name input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.demographics .demo-info .info .phone {
+    padding-bottom: 2%;
+ }
+
+
+.demographics .demo-info .info .phone p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+.demographics .demo-info .info .phone input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.demographics .demo-info .info .address {
+    padding-bottom: 2%;
+ }
+
+.demographics .demo-info .info .address p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+
+.demographics .demo-info .info .address input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.demographics .demo-info .info .apt {
+    padding-bottom: 2%;
+ }
+
+
+.demographics .demo-info .info .apt p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+.demographics .demo-info .info .apt input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.demographics .demo-info .info .pin {
+    padding-bottom: 2%;
+ }
+
+
+.demographics .demo-info .info .pin p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+
+.demographics .demo-info .info .pin input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.demographics .demo-info .info .city {
+    padding-bottom: 2%;
+ }
+
+
+.demographics .demo-info .info .city p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+
+.demographics .demo-info .info .city input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.demographics .demo-info .info .state {
+    padding-bottom: 2%;
+ }
+
+.demographics .demo-info .info .state p {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    padding-bottom: 1%;
+}
+
+.demographics .demo-info .info .state input {
+    border: 0px;
+    width: 40%;
+    background: #eff1f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.demographics {
+    padding: 0% 5% 10% 24%;
+}
+
+.demographics button {
+    color: #e3e7ec;
+    background-color: #262424;
+    border: 1px solid;
+    font-size: 1.5vw;
+    border-radius: 0.25rem;
+    padding: 10px 20px;
+    margin-right: 3%;
+    font-family: sans-serif;
+ }
+
+ .demographics .demo-info .info {
+    padding-bottom: 5%;
+ }
+
+
+ /*******************page 5****************************/
+
+ .thanks {
+    padding: 14% 0% 40% 15%;
+ }
+
+ .thanks h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    font-weight: 350;
+    padding-left: 8%;
+    padding-bottom: 4%;
+ }
+
+ .thanks p {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+ }
