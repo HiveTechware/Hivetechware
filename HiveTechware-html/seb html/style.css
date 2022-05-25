@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+header {
+    position: relative;
+}
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+
+header nav .nav-right form input{
+    color: #fff;
+    background-color: #707070;
+    padding: 10px 5px;
+    border-radius: 1rem;
+    border: none;
+    width: 100%;
+    
+
+}
+
+header nav .nav-right form img{
+    position: absolute;
+    top: 7px;
+    /* background: aqua; */
+    right: 10px;  
+}
+
+header nav .nav-right a{
+    text-decoration: none;
+    color:#707070;
+}
+
+header .bg img{
+    width: 100%;
+}
+
+header .bg .text{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+header .bg .text p{
+    font-size: 3vw;
+    
+}
+
+header  .shop .text{
+  display: flex;
+    
+}
+.categories {
+    position: relative;
+   
+}
+.categories .top-grid {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.categories .top-grid .container {
+    width: 100%;
+}
+.categories .top-grid .container img {
+    width: 100%;
+}
+.offers .bottom-grid {
+    display: grid;
+    grid-template-columns:  repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+.offers .bottom-grid .container {
+    width: 100%;
+}
+.offers .bottom-grid .container img {
+    width: 100%;
+}
+
+header .bg .shop {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        padding: 4% 0;
+        background: rgba(0.5,0.5,0.5,0.4);
+        bottom: 0;
+        /* opacity: 0.5; */
+        color: white;
+
+    
+}
+
+h2 {
+    color: grey;
+    font-size: 20px;
+}
+form {
+    position: relative;
+}
+
+
+.categories .item-row-2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+ .offers .items-row-3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+ .offers .items-row-4{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+}
+
+footer .f1{
+    display: flex;
+    /* padding: 0 0 0 100px; */
+    width: 50%;
+    justify-content: space-around;
+}
+footer .logo{
+display: flex; 
+justify-content: end;
+}
+footer .logo img{
+    padding: 20px;
+}
