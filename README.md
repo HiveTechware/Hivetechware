@@ -27,7 +27,7 @@ Check out [API LIVE DEMO](https://hive-tech-ware-backend.herokuapp.com/) here!!
 1. Git Clone
 
 ```
-https://github.com/europeanvisitors/europeanvisitors.git
+https://github.com/HiveTechware/Hivetechware.git
 ```
 
 2. Backend setting
